@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "golos-text";
+  font-weight: 400;
+  font-style: mormal;
+  src: url(../fonts/golos-text.woff2)format("woff2");
+  font-display: swap
+}
+
+@font-face {
+  font-family: "merriweather";
+  font-weight: 400;
+  font-style: mormal;
+  src: url(../fonts/merriweather.woff2)format("woff2");
+  font-display: swap
+}
+
+html {
+  height: 100%
+}
+
+body {
+  font-family: "merriweather", 'Times New Roman', Times, serif;
+  font-size: 28px;
+  line-height: 1.35;
+  margin: 0;
+  padding: 0;
+}
+
+::after,
+::before {
+  box-sizing: border-box
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.page__header{
+  background-image: url(images/stone-background-beige.png);
+}
+
+.logo__header {
+  margin: 0;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.hero {
+
+  background-image: url(images/hero-backgroung-mobile.png);
+  position: relative;
+  z-index: 0;
+}
+    
+.ttt{
+  background-color: #E9DED4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  z-index: -1;
+  mix-blend-mode:luminosity;
+}
+
+/* .hero::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%;
+  background-image: url(images/hero-city-backgroung-mobile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  z-index: -1;
+  opacity: 1;
+} */

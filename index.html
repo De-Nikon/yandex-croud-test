@@ -6,9 +6,9 @@
     <link rel="icon" href="favicon.ico">
     <link rel="icon" href="favicons/192.png" type="image/svg+xml">
     <link rel="apple-touch-icon" href="favicons/180.png">
-    <link rel="preload" href="fonts/lato/Lato-Regular.woff2" as="font" type="font/woff2">
-    <link rel="preload" href="fonts/oswald/oswaldregular.woff2" as="font" type="font/woff2">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preload" href="fonts/golos-text_regular.woff2" as="font" type="font/woff2">
+    <link rel="preload" href="fonts/merriweather-regular.woff2" as="font" type="font/woff2">
+    <link rel="stylesheet" href="styles.css">
     <link rel="manifest" href="manifest.webmanifest">
     <title>Клуб четырёх коней</title>
   </head>
@@ -21,16 +21,18 @@
       </div>
     </header>
     <main class="main">
-      <div class="cotainer">
-        <section class="hero">
-          <h1 class="hero__title">Превратите уездный город <br><p class="hero__title-additional"style="text-align: center;">в столицу земного шара</p></h1>
+      <section class="hero">
+        <div class="container">
+          <div class="ttt"></div>
+          <h1 class="hero__title">Превратите уездный город <br><p class="hero__title-additional"">в столицу земного шара</p></h1>
           <p class="hero__subtitle">Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам</p>
           <div class="hero__button-wrapper">
             <button class="button button--donate" type="button" name="button-donate">Поддержать шахматную мысль</button>
             <button class="button button--about" type="button" name="button-about">Подробнее о турнире</button>
           </div>
           <div class="running-line"> <p class="running-line__text">бегущая строка</p></div>
-        </section>
+        </div>  
+      </section>
         <section class="donate">
           <div class="container">
             <div class="donate__section-one-wrapper">
@@ -87,49 +89,49 @@
             </div>
           </div>
         </section>
-        <section class="members">
+        <section class="participant__slider-container">
           <div class="container">
-            <h2 class="members__title">Участники турнира</h2>
-            <div class="members__slider-container">
-              <ul class="members__list">
-                <li class="members__list-item card">
+            <h2 class="participant__slider-container__title">Участники турнира</h2>
+            <div class="participant__slider-container__slider-container">
+              <ul class="participant__slider-container__list">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Хозе-Рауль Капабланка</h3>
                   <p class="card__rank">Чемпион мира по шахматам</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
-                <li class="members__list-item card">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Эммануил Ласкер</h3>
                   <p class="card__rank">Чемпион мира по шахматам</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
-                <li class="members__list-item card">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Александр Алехин</h3>
                   <p class="card__rank">Чемпион мира по шахматам</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
-                <li class="members__list-item card">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Арон Нимцович</h3>
                   <p class="card__rank">Чемпион мира по шахматам</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
-                <li class="members__list-item card">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Рихард Рети</h3>
                   <p class="card__rank">Чемпион мира по шахматам</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
-                <li class="members__list-item card">
+                <li class="participant__slider-container__list-item card">
                   <div class="car__img"></div>
                   <h3 class="card__name">Остап Бендер</h3>
                   <p class="card__rank">Гроссмейстер</p>
                   <button class="button card__button" type="button" name="member-info">Подробнее</button>
                 </li>
               </ul>
-              <div class="members__list-menu">
+              <div class="participant__slider-container__list-menu">
                 <button class="button button--slider-left" type="button" name="button--slider-left"> < </button>
                 <span class="slider-dot slider-dot--current">*</span>
                 <span class="slider-dot--number"></span>
@@ -138,7 +140,6 @@
             </div>
           </div>
         </section>
-      </div>
     </main>
     <footer>
       <div class="running-line"> <p class="running-line__text">бегущая строка</p></div>
